@@ -6,7 +6,7 @@ Coming soon!
 
 
 ## Pre-computed Results
-We also provide pre-computed results for benchmark sets.
+We provide pre-computed results for benchmark sets.
 
 [DAVIS-16-val](https://drive.google.com/file/d/15mLLZQz0L3sv6wKcOwLMGl12PRgUrjWQ/view?usp=sharing)  
 [DAVIS-17-val](https://drive.google.com/file/d/1zkimQ5K9zWl4yntcBUEewsJz7mKnb9WZ/view?usp=sharing)  
