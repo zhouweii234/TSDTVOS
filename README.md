@@ -16,7 +16,7 @@ This code is based on MiVOS: [[link]](https://github.com/hkchengrex/Mask-Propaga
 
 ## DataSets
 + DAVIS  
-download DAVIS2016 and DAVIS2017 from [[link]](https://davischallenge.org/)
+download DAVIS2016 and DAVIS2017(480p) from [[link]](https://davischallenge.org/)
 ```
 path/to/DAVIS
 ├── 2016
