@@ -46,7 +46,7 @@ class InferenceCore:
         self.kh = self.nh//16
         self.kw = self.nw//16
 
-        self.mem_bank = MemoryBank(k=self.k, top_k=top_k, conf_thr=0.6)
+        self.mem_bank = MemoryBank(k=self.k, top_k=top_k, conf_thr=conf_thr)
 
         self.dict = {'>=0.9':0, '>=0.8':0, '>=0.7':0, '>=0.6':0, '<0.6':0}
 
