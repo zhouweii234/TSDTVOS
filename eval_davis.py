@@ -45,6 +45,9 @@ torch.autograd.set_grad_enabled(False)
 # Setup Dataset
 if args.split == 'val':
     test_dataset = DAVISTestDataset(davis_path+'/trainval', imset='2017/val.txt')
+    test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4
+elif args.split == 'testdev':
+    test_dataset = DAVISTestDataset(davis_path+'/test-dev', imset='2017/test-dev.txt')
     test_loader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=4)
 else:
     raise NotImplementedError
