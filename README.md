@@ -65,7 +65,7 @@ python eval_davis.py --davis_path [path/to/DAVIS-2017] --split val --output [pat
 
 + DAVIS-2017 test-dev set  
 ```
-python eval_davis.py --davis_path [path/to/DAVIS-2017] --split testdev --output [path/to/output] --conf_thr 0.3
+python eval_davis.py --davis_path [path/to/DAVIS-2017] --split testdev --output [path/to/output] --conf_thr 0.4
 ```
 
 + YouTubeVOS-2018 validation set  
